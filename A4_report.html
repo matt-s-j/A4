@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 4</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 4</small>
+			Persuasive or Deceptive Visualization?
+		</h1>
+
+		<p>
+			<strong>Matthew Johnson</strong> — <em>mattj822@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+    <h2>Proposition: China is one of the least environmentally friendly Developed Economies</h2>
+
+		<section>
+      <h3>FOR the Proposition</h3>
+
+      <figure>
+				<img src="China bad.jpg" alt="" style="width: 100%;" />
+				<figcaption>
+					Vizualization demonstrating Chinese CO2 emmissions. Top Left:
+					Total CO2 emissions by country (top 11 pictured). Top Right: Chloropleth
+					map of CO2 emission changes since 1990. Bottom: CO2 emissions 
+					changes by country since 1990 (China, US, and EU pictured).
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>The data selected for each of the visualizations were specifically chosen to 
+					make China look poorly. The World Bank data had hundreds of attributes, I puposely
+					sifted thorough the many indicators and specifically chose indicators that painted China 
+					poorly but were also relatively easy to understand so as to not raise suspicion. While I did this specifically
+					to disadvantage China the underlying data was not manipulated in any "dishonest" way. <b>score: -1</b></li>
+				</li>
+				<li>Chloropleth map with a scale binned specifically to make the US and EU be green and make China appear 
+					dark red. Notably I filtered out Greenland as it had the greatest change in the map and caused China to not
+					look as negative. Because I directly filtered data and altered the scale to target China this design decision 
+					was very dishonest and deceptive. <b>score: -2 </b> </li>
+				<li>Bar chart scale does not start at 0. This alteration is very subtle but the y-axis actually starts at 
+					400. This is not very perceptible but it does make the false title claim that "China emmits more that the next ten emitters"
+					appear to be true (in truth it is slightly less than the next 10). Furthermore, I chose to not aggregate the European nations into the EU which hides the emission of a similar size region.
+					Ultimately these decisions were made to make China look worse and were quite deceptive. <b>score: -1.5</b></li>
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h3>AGAINST the Proposition</h3>
+
+      <figure>
+				<img src="China good.jpg" alt="" style="width: 100%;"/>
+				<figcaption>
+					Visualzation demonstrating Chinese CO2 emmissions on a per dollar GDP and per capita basis.
+					Top Left: CO2 emissions per dollar GDP (China, US, EU pictured). Top Right: CO2 emissions per capita
+					of large economies. 
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>Use of a per capita / per dollar basis for measurement. China is an incredibly populous country and 
+					one that has seen rapid economic growth. By using per capita and per dollar GDP as the basis for comparison
+					these visualizations account for some of the arbitary disadvantages of large and populous countries when looking at
+					absolute emissions. While this data does paint China in a more positive light it is not deceptive as it is a valid 
+					basis by which to compare countries and helps to account for the disadvantage for any large and populous country. <b>score: 1</b>
+				</li>
+				<li>Filtering of nations in the bar chart. I chose to only filter for nations above 60M in population. This eliminated many of the worst
+					per capita emitters and specifically made the US and EU look worse. Additionally, by grouping the EU together I was able to penalize the 
+					entire region for the emissions of a few countries. Again while this choice paints China in a more positive light, I would not necessarily
+					call the choice deceptive as the underlying data was not manipulated and the graph does not claim to show all countries only "large economies". 
+					<b>score: .5</b>
+				</li>
+				<li>The use of multiple layered transformaitons. The left chart displays the percent change from a piece of data that was already normalized for GDP size.
+					This is a very complex transformation and one that is not easily understood by the viewer. It also doubly benefits China as it gives them a starting point 
+					where they emitted a large amount of CO2 with a relatively small GDP. This allows them to show a large decrease in emissions per dollar GDP because they 
+					did not need to reduce emissions as much to achieve the same result as their GDP grew. In fact they did not reduce emissions at all, their GDP simply grew at
+					a rate that outstripped their increase in emissions. The net result is that China appears to be reducing the carbon intensity of its economy but the truth is that 
+					total emissions and emissions per capita are steadily increasing. I would categorize this choice as deceptive as the multiple layers of transformation distort the underlying
+					data in a way that is not easily understood by the viewer and can cause the viewer to walk away with an incorrect understanding of the data. <b>score: -1</b>
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h2>Final Reflection</h2>
+
+      <p>
+		In creating both of the visualizations the line between ethical and unethical data behavior 
+		was not always clear. More than anything this project showed me that the specific metrics selected
+		can entirely change the conclusion reached. In both designs I tried to only filter the data as a last resort.
+		Before that point I simply tried to pick metrics that were favorable to the argument and present them in a form that
+		was easy to digest. In the first visualization I made a number of choices that were clearly designed to make China look worse.
+		However the data presented was entirely true, and absolute levels of CO2 emissions are important data to monitor and track. 
+		In the furthest logical extreme, if we looked at emissions at a world level then absolute emissions would be the most important data to track.
+		The blatent manipulation in scales were deceptive and unethical and done in such a way that the viewer would not easily notice.
+		I would categorize manipulation of underlying data as the most unethical behavior, with manipulations of commonly held conventions (
+		such as starting a bar chart at 0) as the next most unethical. Most of the other behaviors I engaged in 
+		were far more subtle and I would not categorize them as categorically unethical or deceptive. In many ways the choice of colors on scales
+		and use of transformaitons can be seen as a form of storytelling and can be used to make data more engaging and interesting. Furthermore, it is 
+		unclear exactly when highlighting certain data points goes beyond storytelling and into the realm of deception. I found this particularly challenging 
+		when thinking about data transformations. The use of multiple transformations can lead to very interesting conclusiosn and can reveal intereting insights,
+		but they can also be used to distort the underlying data in a way that is not easily understood by the viewer. I think the most important thing to keep in mind
+		when creating visualizations is to be aware of the choices you are making and communicating them clearly to the viewer. I think it is incredibly important to
+		communicate the limitations of the data and the choices made in the visualization to the viewer and minimize the chances that the viewer walks away with an incorrect
+		understanding of the data.
+		<br>
+		<br>
+		One of the most important things that I took away from this project is the importance of transparency and norms in data visualization. 
+		To that end I find that many data visualizations I encounter "in the wild" are not as transparent as they could be. I find that flair, design, or storytelling often
+		prioritized over clarity and transparency. In many ways I cannot fault the authors, much of the incentives are to create engaging and interesting visualizations that
+		hook viewers or compliment a printed story. A viewers eyes glazing over as you explain to them the channel you chose to encode your quantitative ratio data may not lead 
+		to the level of engagement and critical thinking that you are looking for. However, I think that the field of data visualization would benefit from a greater use of 
+		standardized practices to codify what professionals believe are ethical choices. Much like the field of journalism has a code of ethics that journalists are expected to follow
+		I think that the field of data visualization would benefit from a similar code of ethics. This code could help to guide professionals in making ethical choices and could help to
+		ensure that the field is seen as a trustworthy source of information. It would also help viewers to trust and engage with visualizations less skeptically. In the end, I imagine
+		there will continue to be a tension between the need to engage viewers and the need to present data in a clear and transparent way. My hope is that the field recognizes that 
+		establishing certain norms and standards could greatly improve trust and engagement with the field.
+		</p>
+    </section>
+	</main>
+</body>
+</html>
